@@ -174,6 +174,7 @@ void sort(){
  
 }
 float ball_deg(){
+  
     ba_val();
     sort();
     float ret = atan2f(x1+x2+x3+x4+x5,y1+y2+y3+y4+y5);
