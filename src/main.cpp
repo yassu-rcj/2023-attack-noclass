@@ -40,7 +40,8 @@ for (int i =0; i<16; i++){
 pin();
 }
 void loop() {
-
+deg=ball_deg();
+motor(degfunc2(deg));
 }
 // put function definitions here:
 void pin(){
